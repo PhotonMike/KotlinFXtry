@@ -2,6 +2,7 @@ package kotlintry;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
@@ -13,6 +14,8 @@ public class Main extends Application {
         primaryStage.setTitle("Kotlin?");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
+        Button button = new Button();
+        root.getChildren().add(button);
     }
 
 
