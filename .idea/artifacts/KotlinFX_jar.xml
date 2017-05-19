@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="KotlinFX:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/KotlinFX_jar</output-path>
+    <root id="archive" name="KotlinFX.jar">
+      <element id="module-output" name="KotlinFX" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/kotlin-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/kotlin-reflect.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
